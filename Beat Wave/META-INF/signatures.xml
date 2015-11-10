@@ -1,0 +1,93 @@
+<signatures>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/TR/xmldsig-core#rsa-sha1"/>
+      <Reference URI="#PackageContents">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>LwCkyHzNRHtT8s2aiQfKhA2El/Kq3jq3tHmEqqkmLUk=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue Id="PackageSignatureValue">XXmBhJyujlVyuTh53yNatzwKvzkC89IUoU5PGc+8ziN0KwEgrRRjivHDcTqFDXpukNrUnDZEWvAw
+ZYWAPEA1fSHnlQHKgmAkvS/5UA8q7TDnLvYzo2WTDwg18CJFdstgdPBnkWWXWQVstzmGNPi2wwtg
+IWidCXfrs355GksCtig=</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIICNjCCAZ6gAwIBAgIbLTFmOGQxNjllOjE0OWQ5ODZkMjJlOi04MDAwMA0GCSqGSIb3DQEBBQUA
+MEcxCzAJBgNVBAYTAkNBMRQwEgYDVQQKEwtqb2VsIGRlc2lnbjEKMAgGA1UECxMBMTEWMBQGA1UE
+AxMNam9lbCBhbHBob25zbzAeFw0xNDExMjEyMjAyMTFaFw0xOTExMjIyMjAyMTFaMEcxCzAJBgNV
+BAYTAkNBMRQwEgYDVQQKEwtqb2VsIGRlc2lnbjEKMAgGA1UECxMBMTEWMBQGA1UEAxMNam9lbCBh
+bHBob25zbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqVJjXxrRUC8KsmFdpUIXPqMNVTm1
+4zDXsenr8fHi3vo8VjhIkppq+z0ea/kMdgPY6mLxl6+lhov76dOmHQqCqUEgUtP5s5BCqppKFyXv
+ryzBqNdjL/cwQVtNcS6/Yl/4Bwhulm7uOPVcrFu0D/XtdGWv7C/TBlB89AALRU4mu6ECAwEAAaMX
+MBUwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDQYJKoZIhvcNAQEFBQADggCBAAGZscrbnHlVpj2ve2DZ
+hBqahTsAwdixDK21GWO+R5WrJp3PNmSNBvk9o5itXbHtXakyhl1oyx082Bc9njVWj1IUVXVDlrou
+NhcRdJsP1alGaR1ivPbemG//YegbgcxOGKfs4kC01BvrHgRRJUFELZxnwiz+UT6U6gUzGoK5PgO7
+</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+    <Object>
+      <Manifest Id="PackageContents">
+        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>0/oCb84THKMagtI0Dy0KogEu92TegdesqRr/clXct1c=</DigestValue></Reference><Reference URI="META-INF/AIR/application.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>ld/olRn3dpRvcvNN1+81tOJRhQq7aV0A/7e+gXSFoVs=</DigestValue></Reference><Reference URI="AppIconsForPublish/icone.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>4gzQufl8lK1TPobtm6VQoiZIx4T/5/5HXkZYXqc775E=</DigestValue></Reference><Reference URI="Beat Wave.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>X1DJsmrl+wBdt2jwybfIOpuToDlk/t20gJrv+bpB3Kk=</DigestValue></Reference><Reference URI="musique/Pamgaea.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>nwrXJWfEnZ4auJWTe+8DBYpvwc/MILp/3UtoHzx7VYY=</DigestValue></Reference><Reference URI="sons-2/mo001.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>AgOIPbqvrWJqDO/4WMnWg8jQDBDgt8+dMZ2xfzcgly0=</DigestValue></Reference><Reference URI="sons-2/mo002.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>K7UfpP5wO9HyxdfKCUqoWqeudXBOHdBfbFkT0k5pAqg=</DigestValue></Reference><Reference URI="sons-2/mo003.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>R2nk09M1IOKD0xeJP0oCaWCNJzP+ezyUj9MNzKixEjU=</DigestValue></Reference><Reference URI="sons-2/mo020.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>zCsgloMk3mcOb1fl/yamEwR88dJ0D8+xue/NnweN5rE=</DigestValue></Reference><Reference URI="sons-2/mo021.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>2Ep98Xyxo/NX74SI4KY6M1/OuqhiH7YMGCZRQyNYXIA=</DigestValue></Reference><Reference URI="sons-2/mo023.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>vsI8SvC9CDqs7TuPf++dr4vXPMxa2J477PkElMZxs24=</DigestValue></Reference><Reference URI="sons-2/mo034.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>9H9e1JLL/LI+hJ+hykq3ndQu6DvW1xlFSX29m00Crl4=</DigestValue></Reference><Reference URI="sons-2/mo035.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>JMzMNPmOoocAv3fHz2ym0M1Or0lkkFOOCrUBLdtDdNA=</DigestValue></Reference><Reference URI="sons-2/mo036.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>cdfcHjvP60q2ySu2Qvs+QI9DKV4dQftAS4MC6pYrhdo=</DigestValue></Reference><Reference URI="sons-2/mo110.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>RPPOzcppx+aa1wuwZsYmn3cwnEwSGhjT0VHWUXuYLBs=</DigestValue></Reference><Reference URI="sons-bouton/bip.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>wHv3WS3l3n9wUhYtACXcwWijcatcjymV4V8voNLVPCU=</DigestValue></Reference><Reference URI="sons-bouton/bump.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>FPUyFPWpHtmQvko12S9YGtHN5dhUohLEUgXusrhT8Sc=</DigestValue></Reference><Reference URI="sons-bouton/FX2.wav"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>svj3R8Ab+6YOeCeGNgXP2J1muf+7mfW8lU2CNs8eSC4=</DigestValue></Reference><Reference URI="sons-bouton/mo148.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>rWnFT6sgUw+L1l/g0oWDdpCu55ZUcDDw+iPCeAwR6DE=</DigestValue></Reference><Reference URI="sons-dubstep/01.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>7VLBbgqtRRjhPV4HtkEiE69Ym1tPFGaV1CtyJtOynP0=</DigestValue></Reference><Reference URI="sons-dubstep/02.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>pPMGtS9/4uZmUwfOcKhiT7m2qZfXaTqmm+IKk0KWh5A=</DigestValue></Reference><Reference URI="sons-dubstep/03.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>QI27umHE8MeL0DEFPnk7FVQR3dZvC3UK+CBADVDUdwA=</DigestValue></Reference><Reference URI="sons-dubstep/04.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>5CAQyTY9tcjIJhSKauEkq+c/SpCmYGtQ00My019wDOo=</DigestValue></Reference><Reference URI="sons-dubstep/05.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>kePSdNxWGGJUYpZPEHahhm3OYo9Q3/V6i5e7xvMNbfc=</DigestValue></Reference><Reference URI="sons-dubstep/06.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>KyxHSLinRTX4PvhEoe4GWnxZYNpctG03jUkQF8a5s5M=</DigestValue></Reference><Reference URI="sons-dubstep/07.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>BuUgT5c1v6Q6KJqeqzE8zNKItwD/jbL57mX9MqNdkVU=</DigestValue></Reference><Reference URI="sons-dubstep/08.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>l5dTETxu1Ob/dCScg2zrGyFaDFc5A/qNYulhP4e5rOA=</DigestValue></Reference><Reference URI="sons-dubstep/09.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>MTXYGEqVLLxLg85Plm74AT9ewO82Al/gDk4lAdbfBRI=</DigestValue></Reference><Reference URI="sons-dubstep/10.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>G81z0ZJkIMw/HKQH0SgFa+sVzuXwiRFlTTvL6KGNDHc=</DigestValue></Reference><Reference URI="sons-dubstep/11.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>0ya60SQp30lj6UT8mRGALtISysIOXH1/uYKbuSohtn8=</DigestValue></Reference><Reference URI="sons-dubstep/12.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>ZTCEdZirHK0oda0YNh97ofHwCJoxWMp7PNQ+igfrcDU=</DigestValue></Reference><Reference URI="sons/Bassdrum1.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>D52KzG4Cd64BdezLHANYITyl+ovvVths91CHT9NXHZ0=</DigestValue></Reference><Reference URI="sons/Bassdrum2.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>+crq7tKnay0m4+BiqqMbGJk5oxwCIQ47jeAf7CXPCf8=</DigestValue></Reference><Reference URI="sons/Bassdrum3.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>I3jTu5vDWBzDndPPzbiLVZEnb2TPSzbxBY9jo/clY8c=</DigestValue></Reference><Reference URI="sons/Hat1.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>QP9APQT5pPJ6+qPZ4xcCAyvSYaMmojHA2Zu1r4GlXCo=</DigestValue></Reference><Reference URI="sons/Hat2.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>RYKVj0a9Qk+TRFRzW08zJg4K5kx+5/Keq+MQjw6edDk=</DigestValue></Reference><Reference URI="sons/Hat3.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>5Cm5+GrbVu35NSpd0ckB9QIAd2ADbnqt/2VeavVu7I0=</DigestValue></Reference><Reference URI="sons/Snare1.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>mFukDiQ+ZFjO7y1YtrPmndeLic2Kx1/1IORVLqtg8fA=</DigestValue></Reference><Reference URI="sons/Snare2.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>Bcl6tUUxmhI2+KmzChYZcJK+1QZxbmT4ixtd7H/f9uI=</DigestValue></Reference><Reference URI="sons/Snare3.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>XkX37yOOmXfstBxQd58rbnbbGUTLiJMa9N/QX8jyhlc=</DigestValue></Reference><Reference URI="sons/Snare4.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>5MQFAQJ89PGN6zzfPqpxHXOpT6Ip5QV5FKBQIB1lA+M=</DigestValue></Reference>
+      </Manifest>
+    </Object>
+    <Object xmlns:xades="http://uri.etsi.org/01903/v1.1.1#" > 
+  <xades:QualifyingProperties>
+    <xades:UnsignedProperties > 
+      <xades:UnsignedSignatureProperties>
+        <xades:SignatureTimeStamp>
+     	  <xades:HashDataInfo uri="#PackageSignatureValue">
+     	    <Transforms>
+          	  <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            </Transforms>
+            <xades:EncapsulatedTimeStamp>
+              MIIIQgYJKoZIhvcNAQcCoIIIMzCCCC8CAQMxCzAJBgUrDgMCGgUAMIGvBgsqhkiG9w0BCRABBKCB
+nwSBnDCBmQIBAQYCKQIwITAJBgUrDgMCGgUABBS14rY+r9LcjLCSPtOrARhfKtkLbgIEE78AxxgP
+MjAxNDEyMTAwMzU5MjlaMAMCATygUaRPME0xCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxHZW9UcnVz
+dCBJbmMxJzAlBgNVBAMTHkdlb1RydXN0IFRpbWVzdGFtcGluZyBTaWduZXIgMaCCBY8wggLmMIIC
+T6ADAgECAhBejS2spEZlVGu1h5eBkai/MA0GCSqGSIb3DQEBBQUAMIGLMQswCQYDVQQGEwJaQTEV
+MBMGA1UECBMMV2VzdGVybiBDYXBlMRQwEgYDVQQHEwtEdXJiYW52aWxsZTEPMA0GA1UEChMGVGhh
+d3RlMR0wGwYDVQQLExRUaGF3dGUgQ2VydGlmaWNhdGlvbjEfMB0GA1UEAxMWVGhhd3RlIFRpbWVz
+dGFtcGluZyBDQTAeFw0wNzEwMzEwMDAwMDBaFw0xNzEwMzAyMzU5NTlaME0xCzAJBgNVBAYTAlVT
+MRUwEwYDVQQKEwxHZW9UcnVzdCBJbmMxJzAlBgNVBAMTHkdlb1RydXN0IFRpbWVzdGFtcGluZyBT
+aWduZXIgMTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAr2cSRUIuWwkzzCmZ7JAkmml3LgpP
+UWIwZGkule4Cdqm1sYykLX1Fw/kF5lbYnjQZGStQPfUnfa+RbQKnGNk+0SSYJWcApzfUouoWolC9
+9TgXjwJJcZIfQnk8cmoKleXF+TkEQgiBTxKhDUa4KhayhbDvWh903qhKp0e6jo5T/pkCAwEAAaOB
+hzCBhDAMBgNVHRMBAf8EAjAAMEwGA1UdHwRFMEMwQaA/oD2GO2h0dHA6Ly90c3MtZ2VvdHJ1c3Qt
+Y3JsLnRoYXd0ZS5jb20vVGhhd3RlVGltZXN0YW1waW5nQ0EuY3JsMA4GA1UdDwEB/wQEAwIGwDAW
+BgNVHSUBAf8EDDAKBggrBgEFBQcDCDANBgkqhkiG9w0BAQUFAAOBgQCp8h1xrhHJJ0mPaN/n3gzf
+qZ5J/SIs9aQD/tZsI6zzsvyS9uxqwrhS2IzRyvrrxQyYgdn2zlwzTn7W1I+yvJ2Bc+rwbOOpwW7X
+9tlGoAdDnNn3YGHDL27aUD4WoCgM7OQBoeRsmdXCMah96y0TAilp2R6WF0D72u9i14QHsYL5kTCC
+AqEwggIKoAMCAQICAQAwDQYJKoZIhvcNAQEEBQAwgYsxCzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxX
+ZXN0ZXJuIENhcGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQKEwZUaGF3dGUxHTAbBgNV
+BAsTFFRoYXd0ZSBDZXJ0aWZpY2F0aW9uMR8wHQYDVQQDExZUaGF3dGUgVGltZXN0YW1waW5nIENB
+MB4XDTk3MDEwMTAwMDAwMFoXDTIwMTIzMTIzNTk1OVowgYsxCzAJBgNVBAYTAlpBMRUwEwYDVQQI
+EwxXZXN0ZXJuIENhcGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8wDQYDVQQKEwZUaGF3dGUxHTAb
+BgNVBAsTFFRoYXd0ZSBDZXJ0aWZpY2F0aW9uMR8wHQYDVQQDExZUaGF3dGUgVGltZXN0YW1waW5n
+IENBMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWK1h4YUWGU+o0e1Gc7bDmLhgO/uBfqCfT
+tMngfFlOFg5zVGDBf/afLuk6hSQVPNtHBGPDnsSUGlrfTHrz2UMdPBB6eSXbkP7wUecw1kEA/Z8o
+33m+lLudthTjI4XXqUHgTKR5sCsai/L4O4o+RaxxkgC0kEGY+1/t+rcuiviINwIDAQABoxMwETAP
+BgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBBAUAA4GBAGfb4sLmhz1Ag4Y3NX0fzprDDGYgqLqq
+BImGwvUQCA2/y6IFitBNNj701+9pxl7ksJRvSrnn3luItnvb4yfldsPwNcHLtSebM3nckKYAnnf6
+/M0nlEIWnNMcaOy/XN3lqXsQCjJ0VBMxi4UDhJG3WAEwFDivKMr8sVAZGQmsiUnTMYIB1jCCAdIC
+AQEwgaAwgYsxCzAJBgNVBAYTAlpBMRUwEwYDVQQIEwxXZXN0ZXJuIENhcGUxFDASBgNVBAcTC0R1
+cmJhbnZpbGxlMQ8wDQYDVQQKEwZUaGF3dGUxHTAbBgNVBAsTFFRoYXd0ZSBDZXJ0aWZpY2F0aW9u
+MR8wHQYDVQQDExZUaGF3dGUgVGltZXN0YW1waW5nIENBAhBejS2spEZlVGu1h5eBkai/MAkGBSsO
+AwIaBQCggYwwGgYJKoZIhvcNAQkDMQ0GCyqGSIb3DQEJEAEEMBwGCSqGSIb3DQEJBTEPFw0xNDEy
+MTAwMzU5MjlaMCMGCSqGSIb3DQEJBDEWBBTJ/snBanX3PeFDFmpx/km2iDWIODArBgsqhkiG9w0B
+CRACDDEcMBowGDAWBBQiPNonB5ZzgWtgihuMsKsCMBB/zDANBgkqhkiG9w0BAQEFAASBgBUcUHxA
+4Mz+098nCBXnLOf1TztrlxFuRvjgDl9Tq9rL3eGkQop/tdcygg/MEzYTjNJRQzVPl3/ylvQl4Eua
+wI222PZpl0NPF91fQIerkeSiYg9U0JKrM/ylPPiBpoItQpyD0OtwsNaSmG1GQX9cmX94VFduCqIB
+nqVRcK1hkI4M
+            </xades:EncapsulatedTimeStamp>     	
+     	  </xades:HashDataInfo>     	
+        </xades:SignatureTimeStamp>
+      </xades:UnsignedSignatureProperties> 
+    </xades:UnsignedProperties>
+  </xades:QualifyingProperties>
+</Object>
+  </Signature>
+</signatures>
